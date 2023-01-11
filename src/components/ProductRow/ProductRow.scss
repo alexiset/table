@@ -1,0 +1,25 @@
+.image {
+  width: 250px;
+}
+
+.collapsed {
+  position: relative;
+  height: 40px;
+  overflow: hidden;
+}
+
+.gradient {
+  position: absolute;
+  height: 20px;
+  background: linear-gradient(rgba(255, 255, 255, 0), #fff);
+  bottom: 0;
+  width: 100%;
+}
+
+.price {
+  white-space: nowrap;
+}
+
+.row {
+  cursor: pointer;
+}
